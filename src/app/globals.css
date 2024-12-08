@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  overflow-x: hidden;
+}
+
+.banner{
+  background-image: url("/images/chair.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: auto 650px;
+}
+.banner2{
+  background-image: url("/images/banner2.png");
+  background-repeat: no-repeat;
+  background-size: 850px auto;
+  overflow: hidden;
+}
