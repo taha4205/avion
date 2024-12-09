@@ -5,7 +5,7 @@ import { FaLinkedin, FaInstagram, FaFacebookSquare, FaTwitter, FaPinterest } fro
 export default function Footer(){
     return(
         <footer>
-            <div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-8'>
+            <div className='px-6 md:px-12 py-8 bg-[#2A254B] '>
         <div className="flex flex-wrap gap-12 md:gap-[100px] lg:gap-[200px]">
       
           <div className=" text-white w-full sm:w-auto">

@@ -2,8 +2,10 @@ import React from "react";
 import { IoSearchOutline, IoCartOutline} from "react-icons/io5";
 import { MdOutlineAccountCircle } from "react-icons/md";
 
+
 export default function header(){
     return (
+        <>
         <nav className=" h-[132px] w-full bg-white">
     
     <div className="justify-between flex h-[70px] border-b-2">
@@ -16,7 +18,7 @@ export default function header(){
         <hr />
     </div>
     </div>
-    <div className="justify-center text-center flex gap-11 text-[#726E8D] mt-4">
+    <div className="justify-center  text-center flex gap-11 text-[#726E8D] mt-4">
       <p>Plant pots</p>
       <p>Ceramics</p>
       <p>Table</p>
@@ -27,6 +29,7 @@ export default function header(){
     </div>
 
   </nav>
+  </>
     )
 }
 

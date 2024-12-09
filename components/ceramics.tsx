@@ -3,10 +3,10 @@ import React from "react";
 export default function ceramics(){
     return(<center>
   <section className=" justify-center ceramic h-[761px] bg-white">
-    <div className="w-[1280px]  overflow-hidden">
-  <div className="flex container mx-auto p-4">
+    <div className="w-[1280px] overflow-x-hidden">
+  <div className="flex container p-0">
   
-  <div className="flex justify-between gap-10">
+  <div className="flex  gap-5">
     <div className="h-[462px] w-[305px]  bg-white">
       <img src="./images/chair.jpg" alt="The Dandy chair" className="w-full h-[375px] object-cover " />
       <div className="p-4">
